@@ -1,0 +1,60 @@
+*Pitch_Circle_Radius_R(m)
+50.0e-3
+*Piston_Radius_Rp(m)
+12.26e-3
+*Piston_Inner_Radius_Rpi(m)
+10.76e-3
+*Piston_Inner_Length_Lpi(m)
+48.3e-3
+*Cylinder_Length_Lc(m)
+40.6e-3
+*Cylinder_Dead_Length_Ld(m)
+5.25e-3
+*Kidney_angle_thetaK=2xthetaB(rad)
+30.0
+*Valve_design_angle_thetaV1,thetaV2,thetaV3,thetaV4,thetaV5,thetaV6(rad)
+14., 152., 14., 14., 152., 14.
+*Cylinder_Barrel_Opening_rounding_rB(m)
+5.56e-3
+*Valve_Plate_Opening_rounding_rV1,rV2(m)
+5.31e-3, 5.38e-3
+*Cylinder_Barrel_design_length_LB1,LB2(m)
+3.88e-3, 4.25e-3
+*Orifice_Coefficient_Cvo_Cvi
+0.6,0.7
+*Orifice_Coefficient_Cs
+0.6
+*Pressure_of_suction_Pin(Pa)
+3.0e5
+*Pressure_of_outlet_Pout(Pa)
+2.0e7
+*Pressure_of_Housing_Ph(Pa)
+1.3e5
+*Oil_density_rho(Kg/m^3)  
+827
+%Dynamic_viscosity_Oil_eta(Pa-s)
+0.025
+*Bulk_modulus_K(Pa)
+1.8e+9
+*Slipper_Radius_Rs1,Rs2(m)
+10.0e-3, 20.0e-3
+*Slipper_Orifice_Radius_Rso(m)
+0.7e-3
+*Swash_Plate_Angles_beta_beta2(deg)
+18.0, 0.0
+*Valve_throttle_volumes_Vvo,Vvi(m^3)_h=50mm
+290.6e-7, 384.8e-7
+*Valve_throttle_areas_Avout,Avin(m^2)_40x2rV1
+34.0e-5, 152.0e-5
+*Outlet_Valve_throttle_length_Lvo(m)
+20e-3
+*Outlet_flow_resistence_Kvo()
+90.0e-8
+*Inlet_orifice_coefficient_Cvin()
+1.0
+*Number_of_Rotation_phif(ea)
+1.6
+*Output_interval_phiout(deg)
+0.1
+*Rotating_Speed_w(rpm)
+1800.
