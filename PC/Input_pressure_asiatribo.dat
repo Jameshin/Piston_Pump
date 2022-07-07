@@ -1,0 +1,85 @@
+*Pitch_Circle_Radius_R(m)
+15.35e-3
+*Piston_Radius_Rp(m)
+4.18e-3
+*Piston_Inner_Radius_Rpi(m)
+2.7e-3
+*Piston_Inner_Length_Lpi(m)
+23.7e-3
+*Cylinder_Length_Lc(m)
+24.6e-3
+*Cylinder_Dead_Length_Ld(m)
+2.6e-3
+*Kidney_angle_thetaK=2xthetaB(rad)
+31.2
+*Valve_design_angle_thetaV1,thetaV2,thetaV3,thetaV4,thetaV5,thetaV6(rad)
+32.6, 128.8, 18.6, 32.6, 128.8, 18.6
+*Cylinder_Barrel_Opening_rounding_rB(m)
+1.6e-3
+*Valve_Plate_Opening_rounding_rV1,rV2(m)
+0.9e-3, 1.2e-3
+*Cylinder_Barrel_design_length_LB1,LB2(m)
+2.25e-3, 2.4e-3
+*Orifice_Coefficient_Cvo_Cvi
+0.6, 0.8
+*Orifice_Coefficient_Cs
+0.7
+*pressure_of_suction_Pin(Pa)
+5.0e5
+*pressure_of_outlet_Pout(Pa)
+2.0e7
+*pressure_of_Housing_Ph(Pa)
+1.3e5
+*Oil_density_rho(Kg/m^3)  
+855
+%Dynamic_viscosity_Oil_eta(Pa-s)
+0.0087
+*Bulk_modulus_K(Pa)
+2.0e+09
+*Slipper_Radius_Rs1,Rs2(m)
+3.0e-3, 5.1e-3
+*Slipper_Orifice_Radius_Rso(m)
+0.7e-3
+*Swash_Plate_Angles_beta_beta2(deg)
+17.0, 0.0
+*Valve_throttle_volumes_Vvo,Vvi(m^3)
+334.6e-8, 384.8e-7
+*Valve_throttle_areas_Avout,Avin(m^2)
+9.5e-5, 76.9e-5
+*Outlet_Valve_throttle_length_Lvo(m)
+10e-3
+*Outlet_flow_Zesistence_Kvo()
+30.64e-6
+*Inlet_orifice_coefficient_Cvin()
+1.0
+*Final_number_of_Rotation_phif(ea)
+20
+*Output_interval_phiout_c_hm_phiout_cy_phiout_dy_phiout_vb(deg)
+0.01, 0.002, 0.1, 0.1, 0.1
+*Rotating_Speed_w(rpm)
+6000.0
+*Grid(Radial)_on_Barrel_Surface_NBz0,NBz1,NBz2,NBz3,NBz4,NBz5(ea)
+10, 10, 10, 10, 10, 30
+*Grid(Circumferential)_on_Barrel_Surface_NBt(ea)
+360
+*Radial_sector_on_Barrel_zB1,zB2,zB3,zB4,zB5,zB6(m)
+2.0e-3, 4.0e-3, 5.0e-3, 6.0e-3, 8.0e-3, 22.0e-3 
+*Number_of_Channels_into_Housing(ea)
+3
+*Angle_of_the_Channel(rad)
+0.09
+*Piston_spin(rpm)
+3000.0
+*Initial_Motion_e0(m),theta0(deg),psi0,de0,wx0,wy0
+7.0e-6, -3.0e-6, 1.0e-7, -1.0e-9, -1.0e-9, -1.0e-9
+*Groove_depth(m)
+1.0e-3
+*Piston_Assembly_Mass(kg)
+9e-3
+*Barrel_Mass_&_Moment_Inertia_Mb(kg),Iba,Ibt(kgm2)
+7000e-3, 3000e-6, 5000e-6
+*Cylinder_BoZe_Lever_Loc,Lpj,Lpg,Lbj,Ls
+11.7e-3, 29.0e-3, 18.0e-3, 22.0e-3, 0.0e-3
+
+
+
